@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ciudadanía Digital - Aplicaciones de Voz y Video</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #121212, #1c1c1c);
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #ff416c, #ff4b2b);
+      text-align: center;
+      padding: 40px 10px;
+      color: #fff;
+    }
+    header h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 2rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: #222;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-family: 'Press Start 2P', cursive;
+    }
+    nav a:hover {
+      color: #ffdf00;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+      color: #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+      filter: brightness(1.1);
+    }
+    #introduccion { background: #1a1a1a; }
+    #importancia { background: #222222; }
+    #aplicaciones { background: #2a2a2a; }
+    #buenas-practicas { background: #333333; }
+
+    h2 {
+      font-family: 'Press Start 2P', cursive;
+      color: #ff416c;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    p, ul {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+    ul {
+      padding-left: 25px;
+      margin-bottom: 15px;
+    }
+    img, iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    img:hover, iframe:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255,65,108,0.8);
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: linear-gradient(90deg, #ff416c, #ff4b2b);
+      color: #fff;
+      margin-top: 30px;
+    }
+    button#exportPdf {
+      background: #ffdf00;
+      color: #333;
+      border: none;
+      padding: 15px 25px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 20px auto;
+      display: block;
+      transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    }
+    button#exportPdf:hover {
+      transform: scale(1.05);
+      background: #ff416c;
+      color: #fff;
+    }
+
+    /* Opcional: estilos para impresión */
+    @media print {
+      body {
+        background: #121212 !important;
+        -webkit-print-color-adjust: exact;
+      }
+      button#exportPdf, nav {
+        display: none;
+      }
+      iframe {
+        display: none;
+      }
+      section {
+        box-shadow: none;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ciudadanía Digital</h1>
+    <p>Uso responsable de aplicaciones de voz y vídeo</p>
+  </header>
+
+  <nav>
+    <a href="#introduccion">Introducción</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#aplicaciones">Aplicaciones</a>
+    <a href="#buenas-practicas">Buenas Prácticas</a>
+  </nav>
+
+  <main>
+    <section id="introduccion">
+      <h2>Introducción</h2>
+      <p>La ciudadanía digital implica un uso ético, responsable y seguro de la tecnología. Las aplicaciones de voz y vídeo permiten comunicación inmediata y eficiente, conectando personas para educación, trabajo y entretenimiento.</p>
+      <p>Aprender buenas prácticas reduce riesgos de exposición de datos, ciberacoso y mal uso de información.</p>
+      <img src="https://images.pexels.com/photos/3184312/pexels-photo-3184312.jpeg" alt="Videoconferencia">
+      <iframe width="560" height="315" src="https://youtu.be/3QWFvu-qTZw" title="Ciudadanía digital" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="importancia">
+      <h2>Importancia</h2>
+      <p>El uso correcto de aplicaciones de voz y vídeo permite:</p>
+      <ul>
+        <li>Comunicación efectiva y en tiempo real.</li>
+        <li>Acceso a educación remota y formación profesional.</li>
+        <li>Trabajo colaborativo entre equipos distribuidos.</li>
+        <li>Protección de datos personales y privacidad.</li>
+        <li>Desarrollo de habilidades digitales y comportamiento ético en línea.</li>
+      </ul>
+      <img src="https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg" alt="Privacidad en Internet">
+      <iframe width="560" height="315" src="https://youtu.be/lFjLta95vos" title="Seguridad en videollamadas" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="aplicaciones">
+      <h2>Aplicaciones de Voz y Vídeo</h2>
+      <p>Algunas de las aplicaciones más populares y seguras:</p>
+      <ul>
+        <li><strong>Zoom:</strong> Para reuniones de trabajo, webinars y clases virtuales.</li>
+        <li><strong>Microsoft Teams:</strong> Colaboración empresarial y gestión de proyectos.</li>
+        <li><strong>Google Meet:</strong> Videollamadas rápidas y accesibles.</li>
+        <li><strong>Discord:</strong> Chats de voz y vídeo para comunidades y educación.</li>
+        <li><strong>WhatsApp y Messenger:</strong> Comunicación directa y rápida entre personas.</li>
+      </ul>
+      <img src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg" alt="Aplicaciones de comunicación">
+    </section>
+
+    <section id="buenas-practicas">
+      <h2>Buenas Prácticas</h2>
+      <ul>
+        <li>No compartir información personal sensible en plataformas digitales.</li>
+        <li>Configurar privacidad y permisos de cada aplicación.</li>
+        <li>Respetar netiqueta y comportamiento ético en línea.</li>
+        <li>Usar contraseñas seguras y autenticación de dos factores.</li>
+        <li>Actualizar aplicaciones y sistemas regularmente.</li>
+        <li>Verificar información antes de compartirla.</li>
+      </ul>
+      <p>Estas prácticas protegen tanto tu información como la de otros y promueven un entorno digital seguro.</p>
+    </section>
+
+    <button id="exportPdf">Descargar Página como PDF</button>
+  </main>
+
+  <footer>
+    <p>Ciudadanía Digital </p>
+  </footer>
+
+  <script>
+    document.getElementById('exportPdf').addEventListener('click', () => {
+      window.print(); // Abre la ventana de impresión para guardar como PDF
+    });
+  </script>
+</body>
+</html>
